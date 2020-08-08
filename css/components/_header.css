@@ -8,9 +8,9 @@
 
 .header_container{
     justify-content: space-between;
-    padding-top: 55px;
+    padding-top: 50px;
     align-items: center;
-    padding-bottom: 55px;
+    padding-bottom: 50px;
 }
 .social{
     display: flex;

@@ -4,4 +4,19 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 1080px;
+    position: relative;
+}
+
+.featured_stories{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 35.3%;
+    background-color: rgba(17, 31, 42, 0.9);
+}
+
+.featured_article{
+    padding-left: 9%;
+
 }

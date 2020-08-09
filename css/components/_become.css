@@ -1,0 +1,71 @@
+.become{
+    background-color: #fff;
+}
+
+.become_title{
+    max-width: 50%;
+    padding-top: 150px;
+}
+
+.become_list{
+    margin-top: 95px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.become_item{
+    flex: 0 0 23.5%;
+    margin-right: 2%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    font-size: 0;
+    margin-bottom: 2%;
+}
+
+.become_item:nth-child(4n){
+    margin-right: 0;
+}
+
+.become_txt{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    padding-left: 50px;
+    padding-bottom: 55px;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--white-color);
+    transform: translateY(300px);
+    transition: transform 0.3s ease-in-out; 
+    
+
+
+}
+
+.become_txt:only-child(){
+    color: var(--black-color);
+}
+
+.become_item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--prizm-color);
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+}
+
+.become_item:hover::before{
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.become_item:hover .become_txt{
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out; 
+}

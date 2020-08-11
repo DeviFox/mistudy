@@ -45,11 +45,7 @@
 }
 
 .first_btn{
-    font-weight: 500;
-    font-size: 19px;
-    padding: 20px 70px;
     background-color: var(--orange-color);
-    border-radius: 8px;
     color: var(--white-color);
 }
 

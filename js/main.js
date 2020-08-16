@@ -1,6 +1,8 @@
 
-let swiper = new Swiper('.slider_container', {
+let swiper = new Swiper('.swiper-container', {
     centeredSlides: true, 
+    slidesPerView: 'auto',
     loop: true, 
-    spaceBetween: 30, 
+    spaceBetween: 100,
+    speed: 500,
 });

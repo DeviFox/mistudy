@@ -1,179 +1,245 @@
 <!-- <!DOCTYPE html> -->
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pure World</title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<div class="site_container">
-		<header class="header">
-			<div class="container header_container flex">
-				<ul class="header_social social">
-					<li class="social_item">
-						<a href="https://web.facebook.com/oleg.svyatnenko" target="_blank" class="social_link social_link--fb" aria-label="Go to Facebook"></a>
-					</li>
-					<li class="social_item">
-						<a href="https://vk.com/devifox"target="_blank" class="social_link social_link--vk" aria-label="Go to VK"></a>
-					</li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pure World</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <div class="site_container">
+      <header class="header">
+        <div class="container header_container flex">
+          <ul class="header_social social">
+            <li class="social_item">
+              <a
+                href="https://web.facebook.com/oleg.svyatnenko"
+                target="_blank"
+                class="social_link social_link--fb"
+                aria-label="Go to Facebook"
+              ></a>
+            </li>
+            <li class="social_item">
+              <a
+                href="https://vk.com/devifox"
+                target="_blank"
+                class="social_link social_link--vk"
+                aria-label="Go to VK"
+              ></a>
+            </li>
+          </ul>
+          <a href="#" class="header_logo logo">Pure World</a>
+          <button class="header_burger btn_reset" aria-label="open menu">
+            <span class="burger_line"></span>
+            <span class="burger_line"></span>
+          </button>
+        </div>
+      </header>
 
-				</ul>
-				<a href="#" class="header_logo logo">Pure World</a>
-				<button class="header_burger btn_reset" aria-label="open menu">
-					<span class="burger_line"></span>
-					<span class="burger_line"></span>
-				</button>
+      <main class="main">
+        <section class="first">
+          <div class="container first_container">
+            <a href="#" class="first_link">New travel</a>
+            <h1 class="first_title">Mother Earth Hosts Our Travels</h1>
+            <p class="first_descr">
+              There are not many cities that have expirienced such social and
+              political extremes in recent history as Rome. Now i start writing
+              something strange, but you're won't read this
+            </p>
 
-			</div>
-		</header>
-
-		<main class="main">
-			<section class="first">
-				<div class="container first_container">
-					<a href="#" class="first_link">New travel</a>
-					<h1 class="first_title">Mother Earth Hosts Our Travels</h1>
-					<p class="first_descr">There are not many cities that have expirienced such social and political extremes in 
-						recent history as Rome. Now i start writing something strange, but you're won't read this </p>
-
-					<button class="first_btn btn_reset btn">Buy travel</button>	
-					<div class="first_bottom">
-						<form action="/" class="first_form search_form">
-						<input type="search" class="search_form_field" placeholder="Search places">
-						<button type="submit" class = "search_form_btn btn_reset" aria-label="Search places"></button>
-						</form>
-						<div class="first_slider main_slider">
-							<div class="swiper_container">
-								<div class="swiper_wrapper">
-									<div class="slider_swipe">
-										<div class="main_slider_media">
-											<img src="/img/slider_1.jpg	" alt="Mountains" class="">
-										</div>
-										<p class="main_slider_text">
-											Wonderful Mountains
-									   </p>
-									</div>
-									<div class="slider_swipe"></div>
-									<div class="slider_swipe"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</section>
-			<section class="become">
-				<div class="container">
-					<h2 class="section_title become_title">Become A Travel Pro</h2>
-					<ul class="become_list">
-						<li class="become_item">
-							<img src="./img/Morein.jpg" alt="Tianzi" class="become_img">
-							<div class="become_txt">Morain Lake,<br> Canada</div>
-						</li>
-						<li class="become_item">
-							<img src="./img/troll.jpg" alt="Petra" class="become_img">
-							<div class="become_txt">Troll Tongue,<br> Norway</div>
-						</li>
-						<li class="become_item">
-							<img src="./img/Santorini.jpg" alt="Santorini" class="become_img">
-							<div class="become_txt">Santorini Island,<br> Greece</div>
-						</li>
-						<li class="become_item">
-							<img src="./img/Machu.jpg" alt=Machu"" class="become_img">
-							<div class="become_txt">Machu Picchu,<br> Peru</div>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section class="featured">
-				<div class="container featured_container">
-					<article class="featured_article blog_article">
-						<a href="#" class="blog_article_categ">Featured</a>
-						<h3 class="blog_article_title">How To Fly A Private Jet On Your Next Trip</h3>
-						<p class="blog_article_descr">I need to write some pleasant text, but now i want to sleep and my mind
-							 generating different strange ideas about this text block.</p>
-						<a href="#" class="blog_article_link btn">Read Article</a>
-					</article>
-				</div>
-				<div class="featured_stories">
-			
-					<h2 class="featured_title">Featured Stories</h2>
-					<ul class="fetured_list">
-						<li class="f_list_item">
-							<article class="f_list_article">
-							<div class="f_list_img">
-								<img src="./img/av1.jpg" alt="profile">
-							</div>
-							<div class="f_list_text">
-								<h3 class="f_list_title">
-									<a href="#">Do a Sporting Stag Do In A Birmingham</a>
-								</h3>
-								<time class="f_list_time" datetime="2019-12-13 00:00">13 Dec 2019</time>
-							</div>
-							</article>
-						</li>
-						<li class="f_list_item">
-							<article class="f_list_article">
-								<div class="f_list_img">
-									<img src="./img/av2.jpg" alt="profile">
-								</div>
-								<div class="f_list_text">
-									<h3 class="f_list_title">
-										<a href="#">From Weetlands To Canals And Dams Amsterdam Is Alive</a>
-									</h3>
-									<time class="f_list_time" datetime="2019-12-13 00:00">13 Dec 2019</time>
-								</div>
-								</article>
-						</li>
-						<li class="f_list_item">
-							<article class="f_list_article">
-								<div class="f_list_img">
-									<img src="./img/av3.jpg" alt="profile">
-								</div>
-								<div class="f_list_text">
-									<h3 class="f_list_title">
-										<a href="#">Stu Under Rise And Fall Of A Poker Genius</a>
-									</h3>
-									<time class="f_list_time" datetime="2019-12-13 00:00">13 Dec 2019</time>
-								</div>
-								</article>
-						</li>
-						<li class="f_list_item">
-							<article class="f_list_article">
-								<div class="f_list_img">
-									<img src="./img/av4.jpg" alt="profile">
-								</div>
-								<div class="f_list_text">
-									<h3 class="f_list_title">
-										<a href="#">New Ideas For A Low Cost Vacation On Water</a>
-									</h3>
-									<time class="f_list_time" datetime="2019-12-13 00:00">13 Dec 2019</time>
-								</div>
-								</article>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section class="featured_videos">
-				<div class="container f_vid_container">
-					<h2 class="f_vid_title section_title section_title_center">Featured Videos</h2>
-					<p class="f_vid_descr">The state of Utah in the United States is home to lots of beautiful National Parks, 
-						$ Bryce Canyon National Park ranks as three of the most magnificent @ awe inspiring.
-					</p>
-				</div>
-				<div class="slider_container">
-					<div class="slider_wrapper">
-						<div class="slider-slide">1</div>
-						<div class="slider-slide">2</div>
-						<div class="slider-slide">3</div>
-						<div class="slider_slide">4</div>
-					</div>
-				</div>
-			</section>
-		</main>
-	</div>
-<script src="./libs/swiper.min.js"></script>
-<script src="./js/main.js"></script>
-</body>	
+            <button class="first_btn btn_reset btn">Buy travel</button>
+            <div class="first_bottom">
+              <form action="/" class="first_form search_form">
+                <input
+                  type="search"
+                  class="search_form_field"
+                  placeholder="Search places"
+                />
+                <button
+                  type="submit"
+                  class="search_form_btn btn_reset"
+                  aria-label="Search places"
+                ></button>
+              </form>
+              <div class="first_slider main_slider">
+                <div class="swiper_container">
+                  <div class="swiper_wrapper">
+                    <div class="slider_swipe">
+                      <div class="main_slider_media">
+                        <img src="/img/slider_1.jpg	" alt="Mountains" class="" />
+                      </div>
+                      <p class="main_slider_text">
+                        Wonderful Mountains
+                      </p>
+                    </div>
+                    <div class="slider_swipe"></div>
+                    <div class="slider_swipe"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="become">
+          <div class="container">
+            <h2 class="section_title become_title">Become A Travel Pro</h2>
+            <ul class="become_list">
+              <li class="become_item">
+                <img src="./img/Morein.jpg" alt="Tianzi" class="become_img" />
+                <div class="become_txt">
+                  Morain Lake,<br />
+                  Canada
+                </div>
+              </li>
+              <li class="become_item">
+                <img src="./img/troll.jpg" alt="Petra" class="become_img" />
+                <div class="become_txt">
+                  Troll Tongue,<br />
+                  Norway
+                </div>
+              </li>
+              <li class="become_item">
+                <img
+                  src="./img/Santorini.jpg"
+                  alt="Santorini"
+                  class="become_img"
+                />
+                <div class="become_txt">
+                  Santorini Island,<br />
+                  Greece
+                </div>
+              </li>
+              <li class="become_item">
+                <img src="./img/Machu.jpg" alt=Machu"" class="become_img">
+                <div class="become_txt">
+                  Machu Picchu,<br />
+                  Peru
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="featured">
+          <div class="container featured_container">
+            <article class="featured_article blog_article">
+              <a href="#" class="blog_article_categ">Featured</a>
+              <h3 class="blog_article_title">
+                How To Fly A Private Jet On Your Next Trip
+              </h3>
+              <p class="blog_article_descr">
+                I need to write some pleasant text, but now i want to sleep and
+                my mind generating different strange ideas about this text
+                block.
+              </p>
+              <a href="#" class="blog_article_link btn">Read Article</a>
+            </article>
+          </div>
+          <div class="featured_stories">
+            <h2 class="featured_title">Featured Stories</h2>
+            <ul class="fetured_list">
+              <li class="f_list_item">
+                <article class="f_list_article">
+                  <div class="f_list_img">
+                    <img src="./img/av1.jpg" alt="profile" />
+                  </div>
+                  <div class="f_list_text">
+                    <h3 class="f_list_title">
+                      <a href="#">Do a Sporting Stag Do In A Birmingham</a>
+                    </h3>
+                    <time class="f_list_time" datetime="2019-12-13 00:00"
+                      >13 Dec 2019</time
+                    >
+                  </div>
+                </article>
+              </li>
+              <li class="f_list_item">
+                <article class="f_list_article">
+                  <div class="f_list_img">
+                    <img src="./img/av2.jpg" alt="profile" />
+                  </div>
+                  <div class="f_list_text">
+                    <h3 class="f_list_title">
+                      <a href="#"
+                        >From Weetlands To Canals And Dams Amsterdam Is Alive</a
+                      >
+                    </h3>
+                    <time class="f_list_time" datetime="2019-12-13 00:00"
+                      >13 Dec 2019</time
+                    >
+                  </div>
+                </article>
+              </li>
+              <li class="f_list_item">
+                <article class="f_list_article">
+                  <div class="f_list_img">
+                    <img src="./img/av3.jpg" alt="profile" />
+                  </div>
+                  <div class="f_list_text">
+                    <h3 class="f_list_title">
+                      <a href="#">Stu Under Rise And Fall Of A Poker Genius</a>
+                    </h3>
+                    <time class="f_list_time" datetime="2019-12-13 00:00"
+                      >13 Dec 2019</time
+                    >
+                  </div>
+                </article>
+              </li>
+              <li class="f_list_item">
+                <article class="f_list_article">
+                  <div class="f_list_img">
+                    <img src="./img/av4.jpg" alt="profile" />
+                  </div>
+                  <div class="f_list_text">
+                    <h3 class="f_list_title">
+                      <a href="#">New Ideas For A Low Cost Vacation On Water</a>
+                    </h3>
+                    <time class="f_list_time" datetime="2019-12-13 00:00"
+                      >13 Dec 2019</time
+                    >
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="featured_videos">
+          <div class="container f_vid_container">
+            <h2 class="f_vid_title section_title section_title_center">
+              Featured Videos
+            </h2>
+            <p class="f_vid_descr">
+              The state of Utah in the United States is home to lots of
+              beautiful National Parks, $ Bryce Canyon National Park ranks as
+              three of the most magnificent @ awe inspiring.
+            </p>
+          </div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <button class="btn_reset swiper_play"></button>
+                <h3 class="swiper_title">A Guide A Rocky Mountain Vacations</h3>
+                <img src="./img/swiper_img_1.jpg" alt="nature">
+              </div>
+              <div class="swiper-slide">
+                <h3 class="swiper_title">A Guide A Rocky Mountain Vacations</h3>
+                <img src="./img/swiper_img_2.jpg" alt="nature">
+              </div>
+              <div class="swiper-slide">
+                <h3 class="swiper_title">A Guide A Rocky Mountain Vacations</h3>
+                <img src="./img/swiper_img_3.jpg" alt="nature">
+              </div>
+              <div class="swiper-slide">
+                <h3 class="swiper_title">A Guide A Rocky Mountain Vacations</h3>
+                <img src="./img/swiper_img_4.jpg" alt="nature">
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
- 

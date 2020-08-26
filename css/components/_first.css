@@ -106,6 +106,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom-right-radius: 10px;
     background-color: var(--prizm-color);
     color: var(--white-color);
 }

@@ -79,9 +79,16 @@ border-radius: 8px;
 
 .swiper_play{
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 110px;
-  height: 110px;
-  background-image: url(../img/play-red-button.png);
+  left: 40px;
+  top: 40px;
+  width: 100px;
+  height: 100px;
+  background-image: url(/img/play-red-button.png);
+}
+
+.swiper-slide video{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

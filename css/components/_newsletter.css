@@ -1,0 +1,77 @@
+.newsletter {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.newsletter_content {
+  position: relative;
+  --newsletter-gap: 133px;
+
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/img/newsletter_mountains.jpg);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 var(--newsletter-gap);
+  align-items: center;
+  padding-top: 340px;
+  padding-bottom: 178px;
+}
+
+.newsletter_text {
+  max-width: 370px;
+}
+
+.newsletter_title {
+  color: var(--white-color);
+  margin-bottom: 40px;
+}
+
+.newsletter_descr {
+  font-family: "SFCompact", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--white-color);
+}
+
+.newsletter_form {
+  position: absolute;
+  bottom: -96px;
+  right: var(--newsletter-gap);
+}
+
+.subscribe_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--white-color);
+  width: 501px;
+  height: 416px;
+  border-radius: 10px;
+  padding-top: 55px;
+}
+
+.subscribe_form_field {
+  width: calc(100% - (72px * 2));
+  border: none;
+  border-bottom: 1px solid rgba(28, 46, 61, 0.3);
+  padding: 25px 0;
+  padding-left: 20px;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 2px;
+  color: #1c2e3d;
+}
+
+.subscribe_form_btn {
+  margin-top: 89px;
+  width: 100%;
+  background-color: var(--prizm-color);
+  border: none;
+  padding: 31px 80px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

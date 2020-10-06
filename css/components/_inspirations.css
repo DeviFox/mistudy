@@ -1,15 +1,49 @@
+.inspirations{
+    padding-top: 95px;
+    padding-bottom: 150px;
+}
+
+.inspirations_descr{
+    text-align: center;
+    max-width: 635px;
+    margin: 0 auto;
+    font-family: 'SFCompact', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 70px;
+}
+
+.insp_heading{
+    margin-bottom: 25px;
+}
 .grid{
     display: grid;
+    
 }
 
 .inspirations_list{
-    gap: 32px;
+    gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: minmax(500px, auto);
 }
 
 .inspirations_item{
+    position: relative;
     background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.inspirations_item::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 65%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 50%, rgba(0, 0, 0, 0.65) 100%);
     border-radius: 10px;
 }
 
@@ -19,4 +53,84 @@
 
 .inspirations_item--bigheight{
     height: 710px;
+}
+
+.insp_item--1{
+    background-image: url(/img/insp_item_1.jpg);
+}
+
+.insp_item--2{
+    background-image: url(/img/insp_item_2.jpg);
+}
+
+.insp_item--3{
+    background-image: url(/img/insp_item_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.insp_item--4{
+    background-image: url(/img/insp_item_4.jpg);
+}
+
+.insp_item--5{
+    background-image: url(/img/insp_item_5.jpg);
+}
+
+.insp_item--6{
+    background-image: url(/img/insp_item_6.jpg);
+}
+
+.insp_item--7{
+    background-image: url(/img/insp_item_7.jpg);
+    
+}
+
+.insp_text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    padding-bottom: 42px;
+}
+
+.insp_category{
+    font-style: 10px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.insp_title{
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--white-color);
+    margin-bottom: 25px;
+
+}
+
+.insp_peoples{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.peoples_item {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border: 5px solid var(--white-color);
+    overflow: hidden;
+}
+
+/* .peoples_item:first-child{
+    z-index: 3; */
+/* } */
+.peoples_item:not(:first-child){
+    margin-left: -15px;
 }

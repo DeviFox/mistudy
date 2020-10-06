@@ -9,6 +9,17 @@
     
 } 
 
+.first::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, rgb(255, 255, 255) 75%); */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgb(255, 255, 255) 75%);
+}
+
 .first_container{
     position: relative;
     padding-top: 225px;
@@ -67,7 +78,7 @@
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     height: 80px;
-    margin-bottom: 5px;
+    margin-bottom: 18px;
 }
 
 .search_form_field{
@@ -98,7 +109,7 @@
     overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 18px;
 }
 
 .main_slider_text{
